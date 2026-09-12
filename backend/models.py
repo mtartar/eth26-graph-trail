@@ -15,6 +15,7 @@ class Transfer(BaseModel):
     to_address: str
     timestamp: datetime
     tx_hash: str
+    explorer_url: str
     source: str = Field(description="Where this row came from: fixture | subgraph_mcp | token_api")
 
 
