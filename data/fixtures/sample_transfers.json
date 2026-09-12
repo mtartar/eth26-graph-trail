@@ -1,0 +1,102 @@
+[
+  {
+    "token": "USDC",
+    "chain": "ethereum",
+    "amount_usd": 15234000.00,
+    "from_address": "0x1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b",
+    "to_address": "0x9f8e7d6c5b4a3f2e1d0c9b8a7f6e5d4c3b2a1f0e",
+    "timestamp": "2026-09-10T03:22:10Z",
+    "tx_hash": "0xa1b2c3d4e5f60718293a4b5c6d7e8f9012345678a1b2c3d4e5f60718293a4b5",
+    "source": "fixture"
+  },
+  {
+    "token": "USDC",
+    "chain": "ethereum",
+    "amount_usd": 2450000.50,
+    "from_address": "0x2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c",
+    "to_address": "0x8e7d6c5b4a3f2e1d0c9b8a7f6e5d4c3b2a1f0e9d",
+    "timestamp": "2026-09-08T14:05:44Z",
+    "tx_hash": "0xb2c3d4e5f60718293a4b5c6d7e8f9012345678a1b2c3d4e5f60718293a4b5c6",
+    "source": "fixture"
+  },
+  {
+    "token": "USDC",
+    "chain": "ethereum",
+    "amount_usd": 875000.00,
+    "from_address": "0x3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d",
+    "to_address": "0x7d6c5b4a3f2e1d0c9b8a7f6e5d4c3b2a1f0e9d8c",
+    "timestamp": "2026-09-11T09:47:02Z",
+    "tx_hash": "0xc3d4e5f60718293a4b5c6d7e8f9012345678a1b2c3d4e5f60718293a4b5c6d7",
+    "source": "fixture"
+  },
+  {
+    "token": "USDC",
+    "chain": "ethereum",
+    "amount_usd": 6100000.00,
+    "from_address": "0x4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e",
+    "to_address": "0x6c5b4a3f2e1d0c9b8a7f6e5d4c3b2a1f0e9d8c7b",
+    "timestamp": "2026-09-06T22:11:37Z",
+    "tx_hash": "0xd4e5f60718293a4b5c6d7e8f9012345678a1b2c3d4e5f60718293a4b5c6d7e8",
+    "source": "fixture"
+  },
+  {
+    "token": "USDT",
+    "chain": "ethereum",
+    "amount_usd": 3200000.00,
+    "from_address": "0x5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f",
+    "to_address": "0x5b4a3f2e1d0c9b8a7f6e5d4c3b2a1f0e9d8c7b6a",
+    "timestamp": "2026-09-09T17:38:19Z",
+    "tx_hash": "0xe5f60718293a4b5c6d7e8f9012345678a1b2c3d4e5f60718293a4b5c6d7e8f9",
+    "source": "fixture"
+  },
+  {
+    "token": "USDC",
+    "chain": "ethereum",
+    "amount_usd": 512000.75,
+    "from_address": "0x6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a",
+    "to_address": "0x4a3f2e1d0c9b8a7f6e5d4c3b2a1f0e9d8c7b6a5f",
+    "timestamp": "2026-09-05T06:52:53Z",
+    "tx_hash": "0xf60718293a4b5c6d7e8f9012345678a1b2c3d4e5f60718293a4b5c6d7e8f901",
+    "source": "fixture"
+  },
+  {
+    "token": "USDC",
+    "chain": "base",
+    "amount_usd": 1980000.00,
+    "from_address": "0x7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b",
+    "to_address": "0x3f2e1d0c9b8a7f6e5d4c3b2a1f0e9d8c7b6a5f4e",
+    "timestamp": "2026-09-11T20:14:08Z",
+    "tx_hash": "0x0718293a4b5c6d7e8f9012345678a1b2c3d4e5f60718293a4b5c6d7e8f90123",
+    "source": "fixture"
+  },
+  {
+    "token": "PYUSD",
+    "chain": "ethereum",
+    "amount_usd": 4400000.00,
+    "from_address": "0x8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c",
+    "to_address": "0x2e1d0c9b8a7f6e5d4c3b2a1f0e9d8c7b6a5f4e3d",
+    "timestamp": "2026-09-07T11:29:41Z",
+    "tx_hash": "0x18293a4b5c6d7e8f9012345678a1b2c3d4e5f60718293a4b5c6d7e8f9012345",
+    "source": "fixture"
+  },
+  {
+    "token": "USDC",
+    "chain": "ethereum",
+    "amount_usd": 9875000.00,
+    "from_address": "0x9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d",
+    "to_address": "0x1d0c9b8a7f6e5d4c3b2a1f0e9d8c7b6a5f4e3d2c",
+    "timestamp": "2026-09-12T02:03:27Z",
+    "tx_hash": "0x293a4b5c6d7e8f9012345678a1b2c3d4e5f60718293a4b5c6d7e8f901234567",
+    "source": "fixture"
+  },
+  {
+    "token": "USDC",
+    "chain": "ethereum",
+    "amount_usd": 235000.00,
+    "from_address": "0x0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e",
+    "to_address": "0x0c9b8a7f6e5d4c3b2a1f0e9d8c7b6a5f4e3d2c1b",
+    "timestamp": "2026-09-04T15:40:59Z",
+    "tx_hash": "0x3a4b5c6d7e8f9012345678a1b2c3d4e5f60718293a4b5c6d7e8f9012345678a",
+    "source": "fixture"
+  }
+]
