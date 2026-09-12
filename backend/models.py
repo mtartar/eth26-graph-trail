@@ -35,3 +35,12 @@ class FlagResult(BaseModel):
     transfers: list[Transfer]
     count: int
     total_amount_usd: float
+
+    @classmethod
+    def from_transfers(cls, transfers: list[Transfer]) -> "FlagResult":
+        """Build a FlagResult with count/total computed from the given transfers."""
+        return cls(
+            transfers=transfers,
+            count=len(transfers),
+            total_amount_usd=sum(t.amount_usd for t in transfers),
+        )

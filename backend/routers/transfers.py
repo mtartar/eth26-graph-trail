@@ -27,8 +27,4 @@ def list_transfers(
         until=until,
     )
     transfers = get_data_source().fetch_transfers(query)
-    return FlagResult(
-        transfers=transfers,
-        count=len(transfers),
-        total_amount_usd=sum(t.amount_usd for t in transfers),
-    )
+    return FlagResult.from_transfers(transfers)

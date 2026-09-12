@@ -10,6 +10,8 @@ class Settings(BaseSettings):
     fixture_path: str = "data/fixtures/sample_transfers.json"
     token_api_key: str | None = None
     token_api_base_url: str = "https://api.pinax.network"
+    anthropic_api_key: str | None = None
+    anthropic_model: str = "claude-haiku-4-5-20251001"
 
     model_config = SettingsConfigDict(env_file=".env", env_prefix="", extra="ignore")
 

@@ -10,3 +10,7 @@ convention = "google"
 
 [tool.ty.environment]
 python-version = "3.10"
+
+[tool.pytest.ini_options]
+markers = ["integration: hits the real Anthropic API, needs ANTHROPIC_API_KEY (run with -m integration)"]
+addopts = "-m 'not integration'"
