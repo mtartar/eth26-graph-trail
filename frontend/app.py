@@ -74,6 +74,10 @@ def inject_style() -> None:
             color: #0F172A; border-radius: 999px; padding: 0.25rem 0.85rem;
             margin: 0 0.4rem 0.4rem 0; font-size: 0.85rem; font-weight: 500;
         }
+        .gt-summary {
+            line-height: 1.6; color: #1E293B; font-size: 0.95rem;
+            margin: 0.5rem 0; padding: 0;
+        }
         .gt-footer {
             color: #64748B; font-size: 0.85rem; margin-top: 2rem;
             border-top: 1px solid #E2E8F0; padding-top: 0.75rem;
@@ -133,7 +137,7 @@ def render_summary_card(summary: str | None) -> None:
         return
     with st.container(border=True):
         st.markdown("🤖 **AI summary**")
-        st.markdown(summary)
+        st.markdown(f'<div class="gt-summary">{escape(summary)}</div>', unsafe_allow_html=True)
 
 
 def render_detail_panel(transfer: dict) -> None:
